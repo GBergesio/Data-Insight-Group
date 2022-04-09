@@ -34,7 +34,7 @@ footer{
 }
 
 .borderNav{
-   border-bottom: 10px solid #C70032;
+   border-bottom: 12px solid #C70032;
 }
 
 .bg-secondary{
@@ -203,3 +203,7 @@ h1{
 .loader-desactive{
     display: none;
 } */
+
+.bg-th{
+    background-color: #C70032 !important;
+}
