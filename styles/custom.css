@@ -1,0 +1,205 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+header{
+    height: 23%;
+    background: rgb(116,220,255);
+    background: linear-gradient(0deg, rgba(116,220,255,1) 0%, rgba(84,212,255,1) 38%, rgba(0,191,255,1) 100%);
+    background-image: url(/DataInsightGroup/img/bg01.png);
+
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(/DataInsightGroup/img/bg01.png);
+}
+
+main{
+    min-height: 70%;
+    height: 70%;
+
+}
+
+footer{
+    height: 7%;
+}
+
+.divImgHeader img{
+    width: 60%;
+}
+
+.borderNav{
+   border-bottom: 10px solid #C70032;
+}
+
+.bg-secondary{
+    background: rgb(27,27,27);
+    background: linear-gradient(360deg, rgba(27,27,27,1) 0%, rgba(56,56,56,1) 100%);
+}
+.mailto{
+    color: black;
+    padding-right: 1rem;    
+}
+
+.mailto i{
+    color: #C70032;
+}
+
+.mailto span{
+    color: #C70032;
+}
+
+.mailto a{
+    font-size: 2.3rem;
+}
+
+.aMail {
+    font-family: 'Catamaran';
+    text-decoration: none;
+    font-size: 2rem;
+    color:black;  
+}
+
+.aMail:hover{
+    color: #1F122F;
+}
+.sectionIndex p{
+    font-size: 1.2rem;
+    text-indent: 3rem
+}
+
+h1{
+    font-size: 2.7rem;
+    padding: 2rem 1rem 0.3rem 1rem;
+    font-weight: 600;
+}
+
+.sectionIndex h3{
+    font-size: 1.7rem;
+    padding: 0 0 0 1rem;
+}
+
+.imgIndex{
+    width: 70%;
+}
+
+.accordion1{
+    background-image: url(/DataInsightGroup/img/bg01.png);
+    
+}
+
+.tablitasss{
+    border-collapse: collapse !important;
+}
+
+.tablitasss a{
+    color: white;
+    text-decoration: none;
+}
+
+.linea {
+    border-top: 2px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 1rem
+
+}
+
+.glance h3{
+    text-align: end;
+    padding-top: 2rem;
+}
+
+/* .loader2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #c700324f;
+    z-index: 10;
+    
+}
+
+
+
+.contenedor_loader{
+
+    width: 100vw;
+    height: 100vh;
+    
+    
+
+}
+
+
+.loader{
+    position: relative;
+
+    
+}
+.loader:after{ 
+    content: '';
+    background: url(../img/DIGLogo.png);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-color: aliceblue;
+    animation: girar 1.3s linear infinite;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-radius: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+.loader:before{
+    content: '';
+    width: 90px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .4);
+    animation: sombra-animada 1.3s linear infinite;
+    position: absolute;
+    top: 125px;
+    left: -10px;
+    border-radius: 100%;
+}
+
+@keyframes girar{
+    15% {
+        transform: translateY(0) rotate(72deg);
+    }
+    25%{
+        transform: translateY(0) rotate(144deg);
+    }
+    
+    50%{
+        transform: translateY(0) rotate(216deg);
+        
+    }
+    75%{
+        transform: translateY(0) rotate(288deg);
+    }
+    100%{
+        transform: translateY(0) rotate(360deg);
+    }
+}
+
+@keyframes sombra-animada {
+    25%{
+        transform: scale(1.1, 1.1);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+.loader-desactive{
+    display: none;
+} */
