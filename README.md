@@ -1,8 +1,4 @@
 # Pro-Public-Congress-API
 
-Mi primera página web con Javascript utilizando Vue
+Mi primera página web con Javascript / My first web page with Javascript.
 
-
-# Pro-Public-Congress-API
-
-My first web page with Javascript using Vue
